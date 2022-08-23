@@ -13,4 +13,4 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-PS1='\033[1;36m[\u@\h \W]\$ \033[0m'
+export PS1='\[\e[1;36m\][\u@\h \W]\$ \[\e[m\]'
